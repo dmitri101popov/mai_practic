@@ -16,7 +16,7 @@ def send_to_server():
     listen_thread.start()
 
     while True:
-        client.send(input("You: ").encode('utf-8'))
+        client.send(input("Message: ").encode('utf-8'))
 
 
 if __name__ == "__main__":
